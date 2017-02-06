@@ -79,6 +79,8 @@
 		top: 20px;
 	}
 	#heading {
+		margin-bottom: 0px;
+    	margin-top: 15px;
 		text-align: center;
 		font-family: Carda;
 		font-size: 68px;
