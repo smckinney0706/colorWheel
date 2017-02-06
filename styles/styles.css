@@ -1,0 +1,85 @@
+/*my styles*/
+@font-face {
+    font-family: Carda;
+    src: url(../fonts/Carda.otf);
+}
+
+	.st0{fill:#FEF200;}
+	.st1{fill:#8DC701;}
+	.st2{fill:#01A652;}
+	.st3{fill:#01A89E;}
+	.st4{fill:#0054A6;}
+	.st5{fill:#2E3192;}
+	.st6{fill:#662E91;}
+	.st7{fill:#92278F;}
+	.st8{fill:#ED1D25;}
+	.st9{fill:#F26623;}
+	.st10{fill:#FF9400;}
+	.st11{fill:#FFC500;}
+	.st12{fill:#333333;}
+	.st13{fill:#FFFFFF;}
+
+	#wheel {
+		width: 600px;
+		height: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#buttons {
+		width: 300px;
+		height: 210px;
+		border: 3px solid #444;
+		position: absolute;
+		left: 20px;
+		top: 20px;
+	}
+	.button {
+		height: 70px;
+		background-color: #EEE;
+		color: #444;
+		width: 300px;
+		font-size: 28px;
+		text-align: center;
+		font-family: Carda;
+		text-transform: uppercase;
+		line-height: 70px;
+		cursor: pointer;
+	}
+	.button:hover {
+		background-color: #444;
+		color: #FFF;
+	}
+	.button:active{
+		background-color: #555;
+		color: red;
+	}
+	#text {
+		font-family: Carda;
+		text-transform: uppercase;
+		font-size: 42px;
+		font-weight: bolder;
+		font-style: italic;
+		color: #333;
+		border-bottom: 3px solid #444;
+	}
+	#text:hover {
+		background-color: #444;
+		color: #FFF;
+	}
+	#text:active{
+		background-color: #555;
+		color: red;
+	}
+	#buttons2 {
+		width: 300px;
+		height: 283px;
+		border: 3px solid #444;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
+	#heading {
+		text-align: center;
+		font-family: Carda;
+		font-size: 68px;
+	}
