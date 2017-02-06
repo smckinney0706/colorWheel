@@ -91,3 +91,8 @@
 		left: 20px;
 		top: 250px;
 	}
+	#container {
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+	}
