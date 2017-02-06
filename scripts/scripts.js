@@ -6,6 +6,7 @@
 
 
 $("#prBtn").click(function(){
+	$("#wheelSVG polygon").css("opacity", "1");
 	// $("#wheelSVG path").css("fill", "black");
 	// $("#blue").css("fill", "#0054A6");
 	// $("#red").css("fill", "#ED1D25");
@@ -46,6 +47,42 @@ $("#trBtn").click(function(){
 	$("#redOrange").css("opacity", "1");
 	$("#yellowOrange").css("opacity", "1");
 });
+
+$("#warmBtn").click(function(){
+	$("#wheelSVG polygon").css("opacity", "1");
+	// $("#wheelSVG path").css("fill", "black");
+	// $("#blue").css("fill", "#0054A6");
+	// $("#red").css("fill", "#ED1D25");
+	// $("#yellow").css("fill", "#FEF200");
+	$("#wheelSVG polygon").css("opacity", ".15");
+	$("#outsideStar").css("opacity", "1");
+	$("#innerStar").css("opacity", "1");
+	$("#yellow").css("opacity", "1");
+	$("#yellowOrange").css("opacity", "1");
+	$("#orange").css("opacity", "1");
+	$("#redOrange").css("opacity", "1");
+	$("#red").css("opacity", "1");
+	$("#redViolet").css("opacity", "1");
+});
+
+$("#coolBtn").click(function(){
+	$("#wheelSVG polygon").css("opacity", "1");
+	// $("#wheelSVG path").css("fill", "black");
+	// $("#blue").css("fill", "#0054A6");
+	// $("#red").css("fill", "#ED1D25");
+	// $("#yellow").css("fill", "#FEF200");
+	$("#wheelSVG polygon").css("opacity", ".15");
+	$("#outsideStar").css("opacity", "1");
+	$("#innerStar").css("opacity", "1");
+	$("#violet").css("opacity", "1");
+	$("#blueViolet").css("opacity", "1");
+	$("#blue").css("opacity", "1");
+	$("#blueGreen").css("opacity", "1");
+	$("#green").css("opacity", "1");
+	$("#yellowGreen").css("opacity", "1");
+});
+
+
 $("#text").click(function(){
 	$("#wheelSVG polygon").css("opacity", "1");
 	$("#innerStar").css("fill", "#FFF");

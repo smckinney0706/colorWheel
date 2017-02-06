@@ -83,3 +83,11 @@
 		font-family: Carda;
 		font-size: 68px;
 	}
+	#buttons3 {
+		width: 300px;
+		height: 140px;
+		border: 3px solid #444;
+		position: absolute;
+		left: 20px;
+		top: 250px;
+	}
